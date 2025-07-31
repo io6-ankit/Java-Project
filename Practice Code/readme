@@ -1,0 +1,50 @@
+1. Create an Array of 5 Floats and calculates their sum ?
+
+2. Write a program to find out weather a given integer is present in an array or not ?
+
+3. Calculate the average marks from an array containing marks of all student in physics using for -each loop?
+
+4. Create a java program to add a two matrix of size to 2x3 ?
+
+5. Write a java program reverse to an Array ?
+
+6. Write a java program to find the maximum element in an Array ?
+
+7. Write a java program to find the minimum element in an Array ?
+
+8. Write a java program to find weather an array is sorted or not ?
+
+Methods----
+
+1. Write a java method to print multiplication table of a number n ?
+2. Write a program using functions to print the following pattern -
+<!-- *
+     * *
+     * * *
+     * * * * -->
+3. Write a recursive function to calculate sum of first n natural number ?
+4. Write a function to print the following pattern -
+<!-- * * * *
+     * * *
+     * *
+     * -->
+5. Write a function to print n term of fibonacci series using recursion ?
+6. Write a function to find overage of a set of number passed as arguments ?
+7. Repeat 4 using Recursion ?
+8. Write 2 using Recursion ?
+9. Write a function to convert temperature into fohrenhiet ?
+10. Repeat 3 using interative approach ?
+
+Class methods ----
+
+1. Create a class employee with following properties and methods :
+   Salary (Property) (int)
+   Get Salary (method returning int)
+   name (Property) (String)
+   Get name (Method returning string)
+   Setname (method changing name)
+2. Create a class cellphone with methods to print "ringing---" "vibrating---" etc.
+3. Create a class square with a method to initialize its side , calculating area , perimeter etc.
+4. Create a class Rectangle 8 repeat 3.
+5. Create a class TommyVecetti for Rackstar Game capable of hitting (Print hitting), running, firing etc.
+6. Repeat 4 for a circle ?
