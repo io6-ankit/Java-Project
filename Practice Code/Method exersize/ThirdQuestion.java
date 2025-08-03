@@ -27,11 +27,63 @@ public class ThirdQuestion {
         }
     }
 
+    static int VarArgsMethod(int... arr) {
+        int sum = 0;
+        for (int num : arr) {
+            sum = sum + num;
+        }
+        return
+
+        sum / arr.length;
+
+    }
+
+    static void RecursiveUsePrintTheStart(int x) {
+        if (x >= 0) {
+            RecursiveUsePrintTheStart(x - 1);
+            for (int i = 0; i <= x; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+    }
+
+    static void ReverseRecursiveUsePrintTheStar(int x) {
+        if (x >= 0) {
+
+            for (int i = 0; i <= x; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+            ReverseRecursiveUsePrintTheStar(x - 1);
+        }
+    }
+
+    // 9. question answer
+    static void temperatures(double x) {
+
+        double tem = (x - 32) * 5 / 9;
+        System.out.println(tem + "temperatures");
+    }
+
     public static void main(String[] args) {
         naturalNumber(5);
         int c = SecondMethod(4);
         System.out.println(c + "c");
         int fib = Fibonacci(15);
-        System.out.print(fib);
+        System.out.println(fib + "hhug");
+        System.out.println("Varjfv:" + VarArgsMethod(2, 4, 6));
+        RecursiveUsePrintTheStart(3);
+        System.out.println();
+        ReverseRecursiveUsePrintTheStar(4);
+        temperatures(355);
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum = sum + i;
+
+        }
+        System.out.println(sum);
+
     }
 }
