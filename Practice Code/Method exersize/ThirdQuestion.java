@@ -27,6 +27,16 @@ public class ThirdQuestion {
         }
     }
 
+    // static int Series(int x) {
+    // int first = 0;
+    // int second = 1;
+    // for (int i = 0; i <= x; i++) {
+    // int next = first + second;
+    // first = second;
+    // second = next;
+    // }
+    // }
+
     static int VarArgsMethod(int... arr) {
         int sum = 0;
         for (int num : arr) {
@@ -71,8 +81,18 @@ public class ThirdQuestion {
         naturalNumber(5);
         int c = SecondMethod(4);
         System.out.println(c + "c");
-        int fib = Fibonacci(15);
+        int fib = Fibonacci(10);
         System.out.println(fib + "hhug");
+        int first = 0;
+        int second = 1;
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(first);
+            int next = first + second;
+            first = second;
+            second = next;
+
+        }
+
         System.out.println("Varjfv:" + VarArgsMethod(2, 4, 6));
         RecursiveUsePrintTheStart(3);
         System.out.println();
