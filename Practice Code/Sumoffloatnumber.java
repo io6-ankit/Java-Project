@@ -8,4 +8,10 @@ public class Sumoffloatnumber {
         }
         System.out.println(sum);
     }
+
+    // int[] num={1, 2, 4, 3, 5, 3}
+    // for(int i = (num.length - 1);i<=0;i--)
+    // {
+    // System.out.println(num[i]);
+    // }
 }

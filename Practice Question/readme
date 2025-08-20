@@ -1,0 +1,9 @@
+Constructor----
+
+1. Overload the Employee constructor to initialize the Salary to Rs. 10,000. Complete
+2. Create a java cylinder and use getter and setters to set its radius to height.
+3. Use 2 to calculate surface area and volume of the cylinder.
+4. Use a constructor and repeat 2.
+5. Overload a constructor used to initialize a rectangle of length 4 and breadth 5 for using custom parameters.
+6. Repeat 2 for sphere ?
+7. Create a class animals and derive another class dog from it.

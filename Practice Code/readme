@@ -48,3 +48,13 @@ Class methods ----
 4. Create a class Rectangle 8 repeat 3.
 5. Create a class TommyVecetti for Rackstar Game capable of hitting (Print hitting), running, firing etc.
 6. Repeat 4 for a circle ?
+
+Constructor----
+
+1. Overload the Employee constructor to initialize the Salary to Rs. 10,000.
+2. Create a java cylinder and use getter and setters to set its raduis to height.
+3. Use 1 to calculate surface area and valume of the cylinder.
+4. Use a constructor and repeat 1.
+5. Overload a constructor used to initialize a rectangle of length 4 and breadth 5 for using custom parameters.
+6. Repeat 1 for sphare ?
+7. Create a class animals and derive another class dog from it.
