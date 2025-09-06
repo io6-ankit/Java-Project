@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Signup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8ebe7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        background-color: #fdf5f2;
+        border: 1px solid #999;
+        padding: 30px;
+        width: 450px;
+        box-shadow: 0 0 5px #aaa;
+      }
+
+      .container img {
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #d2a95a;
+        margin: 10px 0;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 18px;
+        margin: 10px 0;
+      }
+
+      p {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-weight: bold;
+        display: block;
+        margin: 10px 0 5px;
+      }
+
+      input[type="text"],
+      input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+      }
+
+      .row {
+        display: flex;
+        gap: 10px;
+      }
+
+      .row input {
+        flex: 1;
+      }
+
+      .checkbox {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 15px 0;
+      }
+
+      .checkbox input {
+        width: 18px;
+        height: 18px;
+      }
+
+      .checkbox label {
+        font-weight: normal;
+      }
+
+      button {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        background-color: #d2a95a;
+        border: 1px solid #333;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background-color: #c1903d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+        alt="Company Logo"
+      />
+      <h1>Your Company</h1>
+      <h2>Sign Up for Our Newsletter</h2>
+      <p>
+        Fill out your information below to be signed up for our informative
+        newsletter
+      </p>
+
+      <form>
+        <div class="row">
+          <div>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" placeholder="First Name" />
+          </div>
+          <div>
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" placeholder="Last Name" />
+          </div>
+        </div>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Email Address" />
+
+        <label for="company">Company Name</label>
+        <input type="text" id="company" placeholder="Company Name" />
+
+        <p><b>Add me to your mailing list</b></p>
+        <div class="checkbox">
+          <input type="checkbox" id="agree" />
+          <label for="agree"
+            >I agree to receive E-mails from your company and your terms and
+            conditions</label
+          >
+        </div>
+
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+  </body>
+</html>
